@@ -1,7 +1,7 @@
 # app_pages/navigation_intro.py
 import streamlit as st
-
-def navigation_intro():
+ 
+def navigation_intro( ):
     st.title("Introduction to st.navigation")
     st.write("The `st.navigation` function configures multi-page Streamlit apps.")
     st.code("""
@@ -17,5 +17,5 @@ pg.run()
     st.write("This creates a sidebar menu with pages specified in the `pages` list.")
 
 if __name__ == "__page__":
-    navigation_intro()
+    navigation_intro( )
 

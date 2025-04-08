@@ -13,5 +13,5 @@ pages = [
 pg = st.navigation(pages, position="sidebar", expanded=True)
 
 # Running the app
-pg.run()
+pg.run( )
 
