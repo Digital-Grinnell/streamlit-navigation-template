@@ -6,7 +6,7 @@ def intro( ):
     st.write("Welcome to this tutorial on Streamlit page navigation!")
     st.write("Use the sidebar to navigate between different pages.")
 
-if __name__ == "__page__":
+if __name__ == "__main__":
     intro( )
 
 

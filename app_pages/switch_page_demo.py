@@ -11,6 +11,6 @@ if st.button("Go to Intro"):
     if st.button("Go to Intro"):
         st.switch_page("app_pages/intro.py")
 
-if __name__ == "__page__":
+if __name__ == "__main__":
     switch_page( )
 

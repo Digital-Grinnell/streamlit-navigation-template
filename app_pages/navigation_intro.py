@@ -16,6 +16,6 @@ pg.run()
     """, language="python")
     st.write("This creates a sidebar menu with pages specified in the `pages` list.")
 
-if __name__ == "__page__":
+if __name__ == "__main__":
     navigation_intro( )
 
